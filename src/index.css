@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-primary: #973314;
+  --color-primary-container: #b84a2a;
+  --color-on-primary: #ffffff;
+  --color-primary-fixed: #ffdbd1;
+  --color-on-primary-fixed: #3b0900;
+
+  --color-secondary: #556340;
+  --color-secondary-container: #d9e9bb;
+  --color-on-secondary-container: #5b6945;
+  --color-secondary-fixed: #d9e9bb;
+  --color-on-secondary-fixed: #141f04;
+
+  --color-tertiary: #794900;
+  --color-tertiary-container: #9b5f01;
+  --color-tertiary-fixed: #ffddba;
+
+  --color-surface: #fff8f6;
+  --color-surface-dim: #e4d7d4;
+  --color-surface-bright: #fff8f6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #fef1ed;
+  --color-surface-container: #f8ebe8;
+  --color-surface-container-high: #f2e6e2;
+  --color-surface-container-highest: #ece0dc;
+
+  --color-on-surface: #201a18;
+  --color-on-surface-variant: #57423c;
+  --color-outline: #8b716b;
+  --color-outline-variant: #dec0b8;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-on-surface);
+    background-color: var(--color-surface);
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Tabular numbers for price alignment */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f8ebe8;
+}
+::-webkit-scrollbar-thumb {
+  background: #dec0b8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b84a2a;
+}

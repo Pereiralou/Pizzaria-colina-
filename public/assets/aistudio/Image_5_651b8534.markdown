@@ -1,0 +1,240 @@
+---
+name: Artisanal Hearth
+colors:
+  surface: '#fff8f6'
+  surface-dim: '#e4d7d4'
+  surface-bright: '#fff8f6'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#fef1ed'
+  surface-container: '#f8ebe8'
+  surface-container-high: '#f2e6e2'
+  surface-container-highest: '#ece0dc'
+  on-surface: '#201a18'
+  on-surface-variant: '#57423c'
+  inverse-surface: '#362f2d'
+  inverse-on-surface: '#fbeeea'
+  outline: '#8b716b'
+  outline-variant: '#dec0b8'
+  surface-tint: '#a43c1d'
+  primary: '#973314'
+  on-primary: '#ffffff'
+  primary-container: '#b84a2a'
+  on-primary-container: '#ffece7'
+  inverse-primary: '#ffb5a0'
+  secondary: '#556340'
+  on-secondary: '#ffffff'
+  secondary-container: '#d9e9bb'
+  on-secondary-container: '#5b6945'
+  tertiary: '#794900'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#9b5f01'
+  on-tertiary-container: '#ffecdc'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdbd1'
+  primary-fixed-dim: '#ffb5a0'
+  on-primary-fixed: '#3b0900'
+  on-primary-fixed-variant: '#842506'
+  secondary-fixed: '#d9e9bb'
+  secondary-fixed-dim: '#bdcca1'
+  on-secondary-fixed: '#141f04'
+  on-secondary-fixed-variant: '#3e4b2a'
+  tertiary-fixed: '#ffddba'
+  tertiary-fixed-dim: '#ffb866'
+  on-tertiary-fixed: '#2b1700'
+  on-tertiary-fixed-variant: '#673d00'
+  background: '#fff8f6'
+  on-background: '#201a18'
+  surface-variant: '#ece0dc'
+typography:
+  display-lg:
+    fontFamily: Playfair Display
+    fontSize: 56px
+    fontWeight: '700'
+    lineHeight: 64px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 30px
+  title-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 28px
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.02em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+  price-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-tablet: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The visual identity embodies the warm, convivial hospitality of a wood-fired pizzeria and traditional dining institution anchored in the central highlands of Huambo. The aesthetic draws on artisanal textures, sun-drenched masonry, aged olive branches, and culinary craftsmanship. It feels established, reliable, and deeply hospitable—neither rustic to the point of disorder nor sleek to the point of sterility.
+
+### Key Tenets
+- **Warm & Appetizing:** Visual tones mirror baked dough, slow-cooked pomodoro, toasted herbs, and rich espresso crema.
+- **Rooted Hospitality:** Interfaces feel tactile, balanced, and generous, inviting patrons into reservations, takeaway orders, and seasonal specials with seamless clarity.
+- **Artisanal Refinement:** Balances classical dining elegance with contemporary operational efficiency, supporting bilingual hospitality (Portuguese primary, English secondary).
+- **Design Movement:** Modern Artisanal Tactile—subtle physical cues, warm atmospheric depths, refined serif editorial rhythm, and crisp legible modern UI elements.
+
+## Colors
+
+The palette draws directly from the culinary hearth and Huambo's high-plateau soil:
+
+- **Primary (`#B84A2A` - Terracotta Pomodoro):** Represents fired brick, terracotta tiles, and rich reduced tomato sauces. Used for primary CTAs (e.g., "Reservar Mesa", "Pedir Online"), key accents, active states, and focus indicators.
+- **Secondary (`#5A6844` - Olive Grove):** Evokes fresh oregano, pressed olive oil, and culinary authenticity. Applied to dietary tags (Vegetariano, Forno a Lenha), success states, and secondary visual balances.
+- **Tertiary (`#D9933B` - Toasted Crust):** Warm amber used for review stars, chef recommendations, specialty pizza ribbons, and subtle interactive highlights.
+- **Neutral Primary (`#241E1C` - Espresso Charcoal):** Grounded, deeply roasted charcoal with a subtle warm undertone. Eliminates harsh jet-black while ensuring high contrast for editorial titles and body typography.
+- **Surfaces & Canvases:**
+  - Base Background: `#FAF7F2` (Creamy Linen) – Soft, non-glare canvas offering organic warmth.
+  - Card & Container Surface: `#FFFFFF` (Crisp Porcelain) – Clean separation for menu lists and reservation forms.
+  - Muted Surface: `#F2ECE2` (Warm Biscuit) – Used for table selection grids, bill summaries, and subtle input fills.
+  - Border & Dividers: `#E6DED1` (Raw Stone) – Delicate delineation maintaining soft visual flow.
+
+## Typography
+
+The typographic hierarchy pairs the editorial, heritage character of **Playfair Display** with the clear, high-density legibility of **Plus Jakarta Sans**.
+
+- **Editorial Serifs (Playfair Display):** Reserved for hero narrative titles, section headers (e.g., "Menu de Pizzas Tradicionais", "A Nossa História"), and featured dish names. It evokes timeless culinary hospitality.
+- **Functional Sans (Plus Jakarta Sans):** Governs ingredient listings, pricing, operational badges (e.g., "Aberto Agora", "Forno a Lenha"), reservation form inputs, and system notifications.
+- **Monetary & Numerical Values:** Menu prices (Kwanza - AOA) must use medium to bold weights of Plus Jakarta Sans with tabular figures enabled (`font-variant-numeric: tabular-nums`) to maintain vertical alignment down receipt sheets and menu lists.
+
+## Layout & Spacing
+
+The layout is built upon an 8pt baseline rhythm, using a responsive 12-column grid system for large viewports, an 8-column grid for tablets, and a 4-column grid for mobile screens.
+
+- **Breakpoints:**
+  - Mobile: `< 640px` (single-column cards, sticky bottom order/booking tray)
+  - Tablet: `640px - 1024px` (dual-column menu layouts, condensed header)
+  - Desktop: `> 1024px` (12-column max-width 1240px container, asymmetrical hero banners)
+- **Rhythm & Safe Areas:**
+  - Standard section margins employ generous vertical breathing space (`space-xl` scaled to 4rem on desktop) to evoke a fine, unhurried dining environment.
+  - Component internals maintain compact padding (`space-sm` to `space-md`) to ensure menu readability and compact checkout flows on mobile devices.
+
+## Elevation & Depth
+
+Visual depth is conveyed through **warm ambient shadows** layered atop soft parchment surfaces, avoiding sterile cold gray drop shadows.
+
+- **Level 0 (Flat):** Menu item entries, table list rows, and inline form controls on `#FFFFFF` surfaces. Demarcated by 1px solid `#E6DED1`.
+- **Level 1 (Card & Plate):** Standard menu card, opening hours badge, daily specials.
+  - Shadow: `0 2px 8px -1px rgba(36, 30, 28, 0.05), 0 1px 3px -1px rgba(36, 30, 28, 0.04)`.
+- **Level 2 (Hover & Popover):** Interactive hovered dish cards, date-picker flyouts, takeaway basket drawer.
+  - Shadow: `0 10px 24px -4px rgba(36, 30, 28, 0.08), 0 4px 8px -2px rgba(36, 30, 28, 0.03)`.
+- **Level 3 (Modal & Table Reservation Engine):** Dialogs, order confirmation bottom sheets, VIP room booking alerts.
+  - Shadow: `0 20px 40px -8px rgba(36, 30, 28, 0.16)`.
+  - Backdrop: `#241E1C` at 40% opacity with a 4px blur to maintain atmospheric focus.
+
+## Shapes
+
+The design system employs a **Rounded (`2`)** shape language, reflecting artisanal pottery, pizza peel curves, and table ergonomics.
+
+- **Base Radius (`0.5rem` / 8px):** Applied to standard text inputs, date pickers, dropdown selects, and secondary action buttons.
+- **Large Radius (`rounded-lg` - `1rem` / 16px):** Used for dish preview cards, photo frames, promo announcement boxes, and reservation calendar sheets.
+- **Extra Large Radius (`rounded-xl` - `1.5rem` / 24px):** Utilized for overlay modals, floating checkout panels, and dietary pill groups.
+- **Pill Shape (`9999px`):** Strictly reserved for status badges (e.g., "Aberto", "Esgotado"), price chips, and floating call buttons.
+
+## Components
+
+### Buttons
+- **Primary Action (e.g., "Reservar Mesa", "Concluir Pedido"):** Terracotta Pomodoro background (`#B84A2A`), crisp white text, `0.5rem` border radius, semi-bold sans-serif. Subtle brightness shift and gentle lift on hover.
+- **Secondary Action (e.g., "Ver Menu Takeaway", "Instruções"):** Warm Biscuit background (`#F2ECE2`), Espresso Charcoal text (`#241E1C`), bordered with `#E6DED1`.
+- **Ghost/Tertiary:** No background, Terracotta text with underline on hover. Used for "Saber mais" or modal cancellation.
+
+### Chips & Badges
+- **Status Indicators (e.g., "Aberto até às 23:00"):** Olive Grove subtle tint (`#EFF3EB`) with solid `#5A6844` text and a pulsing green focal dot.
+- **Menu Categorization Chips:** Pill-shaped selector tags (e.g., "Pizzas no Forno", "Massas Frescas", "Bebidas", "Sobremesas"). Inactive: transparent with 1px border. Active: filled with `#241E1C` and white text.
+
+### Cards (Menu & Food)
+- Built on `#FFFFFF` with Level 1 warm ambient shadows.
+- Dish photo retains a 4:3 or 1:1 aspect ratio with rounded corners (`1rem`).
+- Dish title styled in Playfair Display (`title-lg` or `headline-sm`), with ingredients displayed in muted body text (`#665D59`).
+- Price anchored prominently in bottom right using Plus Jakarta Sans bold tabular numbers.
+
+### Form Inputs & Reservation Fields
+- Container: Background `#FFFFFF`, border 1.5px solid `#E6DED1`, padding `0.75rem 1rem`.
+- Focus State: Border shifts to Terracotta (`#B84A2A`) with a soft matching ambient glow ring (`0 0 0 3px rgba(184, 74, 42, 0.15)`).
+- Error State: Muted crimson border with inline error helper text.
+
+### Table Reservation Selector
+- Interactive floor/seat/date matrix with warm visual cues:
+  - Available: Biscuit background (`#F2ECE2`), hoverable.
+  - Selected: Filled Terracotta Pomodoro (`#B84A2A`) with white iconography.
+  - Reserved/Unavailable: Light line hatch with opacity `0.4`.

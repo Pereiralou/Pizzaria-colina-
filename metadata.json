@@ -1,0 +1,6 @@
+{
+  "name": "Restaurante & Pizzaria Colina",
+  "description": "Website oficial e cardápio digital do Restaurante & Pizzaria Colina no Huambo, Angola. Pizzas em forno a lenha, grelhados no carvão, pequenos-almoços e reservas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
